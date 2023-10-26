@@ -1,7 +1,7 @@
 export const Bio = {
   name: "Kushal Shah",
   roles: [
-    "Studen",
+    "Student",
     "Developer",
     "Freelancer",
     "Content Writer",
@@ -13,8 +13,8 @@ export const Bio = {
     "https://www.kushalshah.com.np",
   linkedin: "https://www.linkedin.com/in/",
   twitter: "https://twitter.com/",
-  insta: "https://www.instagram.com/",
-  facebook: "https://www.facebook.com/",
+  insta: "https://www.instagram.com/kushalshah0",
+  facebook: "https://www.facebook.com/kushal.shah01",
 };
 
 export const skills = [
