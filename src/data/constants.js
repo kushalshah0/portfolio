@@ -1,10 +1,10 @@
 export const Bio = {
   name: "Kushal Shah",
   roles: [
+    "Student",
     "Developer",
     "Freelancer",
     "Content Writer",
-    "Photographer",
   ],
   description:
     "I'm a motivated and adaptable individual, constantly seeking new challenges. Driven by a passion for learning, I'm committed to delivering top-notch results. With a positive attitude and a growth mindset, I'm prepared to make a significant impact and achieve remarkable outcomes.",
