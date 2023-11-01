@@ -186,7 +186,7 @@ export const experiences = [
 export const education = [
   {
     id: 0,
-    img: "https://scontent.fktm18-1.fna.fbcdn.net/v/t39.30808-6/304926069_499082765555938_7971262495902096781_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_ohc=UeLtvVq40EkAX9cEie6&_nc_ht=scontent.fktm18-1.fna&oh=00_AfDLnFg_3pN5Grf4CfJ0KG9l4HReqKG38Ybe7Y_cw4dpvQ&oe=653DCB8A",
+    img: "https://raw.githubusercontent.com/kushalshah0/portfolio/main/src/images/tcioe.jpg",
     school: "IOE Thapathali Campus, Thapathali",
     date: "2023 - Present",
     grade: "*",
@@ -195,7 +195,7 @@ export const education = [
   },
   {
     id: 1,
-    img: "https://scontent.fktm18-1.fna.fbcdn.net/v/t39.30808-6/327351254_609549994266026_902956457006647542_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=5f2048&_nc_ohc=JniNoqkycj4AX_KqFhQ&_nc_ht=scontent.fktm18-1.fna&oh=00_AfBkK5EzXpIkW5QReXccDYVZKjkHQzK8LNMOApq8P0eFIw&oe=653DBBA1",
+    img: "https://raw.githubusercontent.com/kushalshah0/portfolio/main/src/images/mmc.jpg",
     school: "Makawanpur Multiple Campus, Hetauda",
     date: "2019 - 2022",
     grade: "3.50",
