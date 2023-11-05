@@ -60,18 +60,19 @@ const ContactForm = styled.form`
   max-width: 600px;
   display: flex;
   flex-direction: column;
+  align-items: center;
   background-color: ${({ theme }) => theme.card};
-  padding: 32px;
+  padding: 28px;
   border-radius: 16px;
   box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
-  margin-top: 28px;
+  margin-top: 25px;
   gap: 12px;
 `
 
-const ContactTitle = styled.div`
-  font-size: 24px;
+const ContactEmail = styled.div`
+  font-size: 20px;
   margin-bottom: 6px;
-  font-weight: 600;
+  font-weight: 500;
   color: ${({ theme }) => theme.text_primary};
 `
 
@@ -146,13 +147,9 @@ const Contact = () => {
       <Wrapper>
         <Title>Contact</Title>
         <Desc>Feel free to reach out to me for any questions or opportunities!</Desc>
-        <ContactForm ref={form} onSubmit={handleSubmit}>
-          <ContactTitle>Email Me 🚀</ContactTitle>
-          <ContactInput placeholder="Your Email" name="from_email" />
-          <ContactInput placeholder="Your Name" name="from_name" />
-          <ContactInput placeholder="Subject" name="subject" />
-          <ContactInputMessage placeholder="Message" rows="4" name="message" />
-          <ContactButton type="submit" value="Send" />
+        <ContactForm>
+          <ContactEmail>Get in Touch : contact@kushalshah.com.np</ContactEmail>
+
         </ContactForm>
         <Snackbar
           open={open}
